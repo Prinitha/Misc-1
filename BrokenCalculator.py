@@ -1,3 +1,8 @@
+'''
+TC: O(log(target)) - Using idea of Binary Search by dividing the target by 
+                    half each time it is even else just incrementing by 1 to make it even
+SC: O(1) - No additional space used
+'''
 class Solution:
     def brokenCalc(self, startValue: int, target: int) -> int:
         count = 0
